@@ -4,20 +4,20 @@ programa
 	funcao inicio()
 	{
 		real salario,medSalario=0.0,maiorSalario=0.0,perSalario100=0.0,salario100=0.0,somaSalario=0.0
-		inteiro qtdFilhos=0,filhos,medFilhos=02,x=0
+		inteiro qtdFilhos=0,filhos,medFilhos=0,x=0
 		
 
-		para(x=1; x<=2; x++){
-			escreva("\n",x,"º Qual o valor do seu salário atualmente? ")
+		para(x=1; x<=5; x++){
+			escreva("\n",x,"º habitante Qual o valor do seu salário atualmente? ")
 			leia(salario)
-			escreva("\n",x,"º Quantos filhos voçê tem? ")
+			escreva("\n",x,"º habitante Quantos filhos voçê tem? ")
 			leia(filhos)
 
 			somaSalario += salario 
 			qtdFilhos += filhos
 
-			medFilhos = qtdFilhos / 2
-			medSalario = somaSalario / 2
+			medFilhos = qtdFilhos / 5
+			medSalario = somaSalario / 5
 			
 		se(salario>maiorSalario){
 				maiorSalario = salario
@@ -43,7 +43,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 605; 
+ * @POSICAO-CURSOR = 786; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
